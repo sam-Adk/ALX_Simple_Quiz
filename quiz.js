@@ -13,12 +13,13 @@ function checkAnswer() {
     //compare user answer with correct answer
 
     if (userAnswer === correctAnswer) {
-        feedback.textContent = "correct! well done.";
+        feedback.textContent = "Correct! well done.";
     }else{
         feedback.textContent = "Thats incorrect. Try again!";
     }
 }
 
 //Add event listener to te button
+
 
 document.getElementById("submit-answer").addEventListener("click",checkAnswer);
